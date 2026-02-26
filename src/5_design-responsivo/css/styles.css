@@ -1,0 +1,42 @@
+header{
+    background: #F00;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li a{
+    display: block;
+    background-color: #666;
+    color: #FFF;
+    margin: 3px 0;
+    padding: 10px;
+    text-decoration: none;
+}
+.highlight-desktop-paragraph{
+    display: none;
+}
+
+/* Mobile First Standard normally adds media transitions for desktop, hence the min-width being for a larger screen.*/
+@media (min-width:760px){
+    header{
+        background: #00f;
+    }
+    nav ul{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav ul li{
+        margin: 15px;
+    }
+    header, nav, main{
+        width: 1200px;
+        margin: auto;
+    }
+    .highlight-desktop-paragraph{
+        display: block;
+        color: #F00;
+    }
+}
