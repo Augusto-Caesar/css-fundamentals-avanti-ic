@@ -82,3 +82,13 @@ main section a{
     padding: 15px;
     margin-top: 15px;
 }
+
+footer{
+    background-color: #666;
+    color: #EEE;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    letter-spacing: 1px;
+}
