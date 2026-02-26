@@ -16,6 +16,17 @@ erasing the element. */
     padding: 30px;
     width: 200px;
 }
+.content-flex p:first-child{
+    font-weight: bold;
+}
+.content-flex p::before{
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background-color: #DDD;
+    display: inline-block;
+    margin-right: 10px;
+}
 
 a{
     background-color: #EEE;
