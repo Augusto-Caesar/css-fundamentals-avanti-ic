@@ -1,0 +1,24 @@
+/* Class Hide is commonly used to manually hide elements from a page without altering several lines of code or
+erasing the element. */
+.hide{
+    display: none;
+}
+
+.content-flex{
+    display: flex;
+    width: 1280px;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-flex p{
+    padding: 30px;
+    width: 200px;
+}
+
+a{
+    background-color: #EEE;
+    padding: 30px;
+    display: inline-block;
+}
